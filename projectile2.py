@@ -18,7 +18,7 @@ class blitrect():
 		self.rect=self.img.get_rect(topleft=p)
 		sc.blit(self.img,self.rect)
 
-sc=py.display.set_mode()
+sc=py.display.set_mode((670,1450))
 clock=py.time.Clock()
 ground=blitrect((1470,100),(0,200,0))
 ballposs=(10,510)
