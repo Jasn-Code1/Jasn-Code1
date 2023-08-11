@@ -1,4 +1,4 @@
-import pygame as py
+pygame as py
 import numpy as np
 from math import *
 from sys import exit
@@ -28,7 +28,7 @@ v=300
 vx=v*cos(angle*pi/180)
 vy=v*sin(angle*pi/180)
 bounce_coe=0.6
-friction=1000
+friction=1000 #Actualy this friction is wrong.
 i=120
 points=[]
 points1=[]
